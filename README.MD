@@ -17,13 +17,14 @@ CardVault is an application that allows you to manage your payment cards. This g
 1. Open your terminal.
 2. Navigate to the main project folder:
     ```bash
-    cd /Users/michal/Desktop/CardVault
+    cd  /CardVault
     ```
 3. Start the API using Docker Compose:
     ```bash
     docker-compose up -d
     ```
 4. The API will be running in the background. To check the status:
+
     ```bash
     docker-compose ps
     ```
@@ -32,8 +33,9 @@ CardVault is an application that allows you to manage your payment cards. This g
 
 1. Install .NET MAUI if you haven't already.
 2. Navigate to the UI folder:
+
     ```bash
-    cd /Users/michal/Desktop/CardVault/src/UI/CardVault.UI
+    cd /CardVault/src/UI/CardVault.UI
     ```
 
 #### Running the UI Depending on Your Operating System
