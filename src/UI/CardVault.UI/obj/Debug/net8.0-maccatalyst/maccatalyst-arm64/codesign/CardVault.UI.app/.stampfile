@@ -1,0 +1,1 @@
+-v --force --timestamp=none --sign - --entitlements /Users/michal/Desktop/CardVault/src/UI/CardVault.UI/obj/Debug/net8.0-maccatalyst/maccatalyst-arm64/Entitlements.xcent /Users/michal/Desktop/CardVault/src/UI/CardVault.UI/bin/Debug/net8.0-maccatalyst/maccatalyst-arm64/CardVault.UI.app

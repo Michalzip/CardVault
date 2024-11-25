@@ -1,0 +1,90 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{27C3E62A-9635-4507-ABF3-66E1C80EB8D2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{47566170-000E-4694-A4D5-78798A83B573}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{B5405048-B3D3-46B5-AC3C-C38BC37CDEE2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bootstrapper", "Bootstrapper", "{177ACC74-DB48-417C-A0D9-057F6F6C68FC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PaymentCards", "PaymentCards", "{B439B0EE-9E31-4836-AFEC-EC5C7D9AD8D8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{710D8058-C0C7-45C1-9D22-F2732DF088A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardVault.Modules.PaymentCards.Api", "src\Modules\PaymentCards\CardVault.Modules.PaymentCards.Api\CardVault.Modules.PaymentCards.Api.csproj", "{2275F327-B167-4832-BB79-CC62969C1457}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardVault.Modules.PaymentCards.Domain", "src\Modules\PaymentCards\CardVault.Modules.PaymentCards.Domain\CardVault.Modules.PaymentCards.Domain.csproj", "{B4F249F0-023D-4520-9A3C-18E11CBA8FE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardVault.Modules.PaymentCards.Infrastructure", "src\Modules\PaymentCards\CardVault.Modules.PaymentCards.Infrastructure\CardVault.Modules.PaymentCards.Infrastructure.csproj", "{71B9BCBC-9C44-495C-9EAC-C8FFC88B4E3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardVault.Modules.PaymentCards.Application", "src\Modules\PaymentCards\CardVault.Modules.PaymentCards.Application\CardVault.Modules.PaymentCards.Application.csproj", "{E0ABF519-4928-4570-9DA8-14776012E264}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardVault.Shared.Abstraction", "src\Shared\CardVault.Shared.Abstraction\CardVault.Shared.Abstraction.csproj", "{190FEFFD-C032-4315-BB7F-813E7BEFFEAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardVault.Shared.Infrastructure", "src\Shared\CardVault.Shared.Infrastructure\CardVault.Shared.Infrastructure.csproj", "{9A1E8CAD-4007-43CC-865F-4B2ED26CAE8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardVault.Bootstrapper", "src\Bootstrapper\CardVault.Bootstrapper\CardVault.Bootstrapper.csproj", "{E7E0DA39-AB77-4A64-9196-0EFF196976D1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{60D307BE-0E9A-453F-9106-E2F70C933319}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardVault.UI", "src\UI\CardVault.UI\CardVault.UI.csproj", "{74142525-0C0D-4E43-BC7E-B7C76F9A36B2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{47566170-000E-4694-A4D5-78798A83B573} = {27C3E62A-9635-4507-ABF3-66E1C80EB8D2}
+		{B5405048-B3D3-46B5-AC3C-C38BC37CDEE2} = {27C3E62A-9635-4507-ABF3-66E1C80EB8D2}
+		{177ACC74-DB48-417C-A0D9-057F6F6C68FC} = {27C3E62A-9635-4507-ABF3-66E1C80EB8D2}
+		{B439B0EE-9E31-4836-AFEC-EC5C7D9AD8D8} = {47566170-000E-4694-A4D5-78798A83B573}
+		{710D8058-C0C7-45C1-9D22-F2732DF088A6} = {27C3E62A-9635-4507-ABF3-66E1C80EB8D2}
+		{2275F327-B167-4832-BB79-CC62969C1457} = {B439B0EE-9E31-4836-AFEC-EC5C7D9AD8D8}
+		{B4F249F0-023D-4520-9A3C-18E11CBA8FE6} = {B439B0EE-9E31-4836-AFEC-EC5C7D9AD8D8}
+		{71B9BCBC-9C44-495C-9EAC-C8FFC88B4E3C} = {B439B0EE-9E31-4836-AFEC-EC5C7D9AD8D8}
+		{E0ABF519-4928-4570-9DA8-14776012E264} = {B439B0EE-9E31-4836-AFEC-EC5C7D9AD8D8}
+		{190FEFFD-C032-4315-BB7F-813E7BEFFEAD} = {B5405048-B3D3-46B5-AC3C-C38BC37CDEE2}
+		{9A1E8CAD-4007-43CC-865F-4B2ED26CAE8F} = {B5405048-B3D3-46B5-AC3C-C38BC37CDEE2}
+		{E7E0DA39-AB77-4A64-9196-0EFF196976D1} = {177ACC74-DB48-417C-A0D9-057F6F6C68FC}
+		{74142525-0C0D-4E43-BC7E-B7C76F9A36B2} = {710D8058-C0C7-45C1-9D22-F2732DF088A6}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2275F327-B167-4832-BB79-CC62969C1457}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2275F327-B167-4832-BB79-CC62969C1457}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2275F327-B167-4832-BB79-CC62969C1457}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2275F327-B167-4832-BB79-CC62969C1457}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4F249F0-023D-4520-9A3C-18E11CBA8FE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4F249F0-023D-4520-9A3C-18E11CBA8FE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4F249F0-023D-4520-9A3C-18E11CBA8FE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4F249F0-023D-4520-9A3C-18E11CBA8FE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71B9BCBC-9C44-495C-9EAC-C8FFC88B4E3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71B9BCBC-9C44-495C-9EAC-C8FFC88B4E3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71B9BCBC-9C44-495C-9EAC-C8FFC88B4E3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71B9BCBC-9C44-495C-9EAC-C8FFC88B4E3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0ABF519-4928-4570-9DA8-14776012E264}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0ABF519-4928-4570-9DA8-14776012E264}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0ABF519-4928-4570-9DA8-14776012E264}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0ABF519-4928-4570-9DA8-14776012E264}.Release|Any CPU.Build.0 = Release|Any CPU
+		{190FEFFD-C032-4315-BB7F-813E7BEFFEAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{190FEFFD-C032-4315-BB7F-813E7BEFFEAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{190FEFFD-C032-4315-BB7F-813E7BEFFEAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{190FEFFD-C032-4315-BB7F-813E7BEFFEAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A1E8CAD-4007-43CC-865F-4B2ED26CAE8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A1E8CAD-4007-43CC-865F-4B2ED26CAE8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A1E8CAD-4007-43CC-865F-4B2ED26CAE8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A1E8CAD-4007-43CC-865F-4B2ED26CAE8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7E0DA39-AB77-4A64-9196-0EFF196976D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7E0DA39-AB77-4A64-9196-0EFF196976D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7E0DA39-AB77-4A64-9196-0EFF196976D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7E0DA39-AB77-4A64-9196-0EFF196976D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74142525-0C0D-4E43-BC7E-B7C76F9A36B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74142525-0C0D-4E43-BC7E-B7C76F9A36B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74142525-0C0D-4E43-BC7E-B7C76F9A36B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74142525-0C0D-4E43-BC7E-B7C76F9A36B2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,17 @@
+/Users/michal/Desktop/CardVault/src/Modules/PaymentCards/CardVault.Modules.PaymentCards.Domain/bin/Release/net8.0/CardVault.Modules.PaymentCards.Domain.deps.json
+/Users/michal/Desktop/CardVault/src/Modules/PaymentCards/CardVault.Modules.PaymentCards.Domain/bin/Release/net8.0/CardVault.Modules.PaymentCards.Domain.dll
+/Users/michal/Desktop/CardVault/src/Modules/PaymentCards/CardVault.Modules.PaymentCards.Domain/bin/Release/net8.0/CardVault.Modules.PaymentCards.Domain.pdb
+/Users/michal/Desktop/CardVault/src/Modules/PaymentCards/CardVault.Modules.PaymentCards.Domain/bin/Release/net8.0/CardVault.Shared.Abstraction.dll
+/Users/michal/Desktop/CardVault/src/Modules/PaymentCards/CardVault.Modules.PaymentCards.Domain/bin/Release/net8.0/CardVault.Shared.Infrastructure.dll
+/Users/michal/Desktop/CardVault/src/Modules/PaymentCards/CardVault.Modules.PaymentCards.Domain/bin/Release/net8.0/CardVault.Shared.Abstraction.pdb
+/Users/michal/Desktop/CardVault/src/Modules/PaymentCards/CardVault.Modules.PaymentCards.Domain/bin/Release/net8.0/CardVault.Shared.Infrastructure.pdb
+/Users/michal/Desktop/CardVault/src/Modules/PaymentCards/CardVault.Modules.PaymentCards.Domain/obj/Release/net8.0/CardVault.Modules.PaymentCards.Domain.csproj.AssemblyReference.cache
+/Users/michal/Desktop/CardVault/src/Modules/PaymentCards/CardVault.Modules.PaymentCards.Domain/obj/Release/net8.0/CardVault.Modules.PaymentCards.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/michal/Desktop/CardVault/src/Modules/PaymentCards/CardVault.Modules.PaymentCards.Domain/obj/Release/net8.0/CardVault.Modules.PaymentCards.Domain.AssemblyInfoInputs.cache
+/Users/michal/Desktop/CardVault/src/Modules/PaymentCards/CardVault.Modules.PaymentCards.Domain/obj/Release/net8.0/CardVault.Modules.PaymentCards.Domain.AssemblyInfo.cs
+/Users/michal/Desktop/CardVault/src/Modules/PaymentCards/CardVault.Modules.PaymentCards.Domain/obj/Release/net8.0/CardVault.Modules.PaymentCards.Domain.csproj.CoreCompileInputs.cache
+/Users/michal/Desktop/CardVault/src/Modules/PaymentCards/CardVault.Modules.PaymentCards.Domain/obj/Release/net8.0/CardVaul.34AE294D.Up2Date
+/Users/michal/Desktop/CardVault/src/Modules/PaymentCards/CardVault.Modules.PaymentCards.Domain/obj/Release/net8.0/CardVault.Modules.PaymentCards.Domain.dll
+/Users/michal/Desktop/CardVault/src/Modules/PaymentCards/CardVault.Modules.PaymentCards.Domain/obj/Release/net8.0/refint/CardVault.Modules.PaymentCards.Domain.dll
+/Users/michal/Desktop/CardVault/src/Modules/PaymentCards/CardVault.Modules.PaymentCards.Domain/obj/Release/net8.0/CardVault.Modules.PaymentCards.Domain.pdb
+/Users/michal/Desktop/CardVault/src/Modules/PaymentCards/CardVault.Modules.PaymentCards.Domain/obj/Release/net8.0/ref/CardVault.Modules.PaymentCards.Domain.dll

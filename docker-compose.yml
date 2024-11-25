@@ -1,0 +1,39 @@
+﻿services:
+  
+  card_vault.bootstrapper:
+    container_name: CardVault.bootstrapper
+    image: card_vault.bootstrapper
+    build:
+      context: .
+      dockerfile: src/Bootstrapper/CardVault.Bootstrapper/Dockerfile
+    environment:
+      - ConnectionStrings__Postgres=Host=CardVault.Database;Database=CardVaultDatabase;Username=postgres;Password=postgres;
+      - ENCRYPTION_KEY=1234567890abcdef1234567890abcdef  
+    depends_on:
+      - card_vault.database
+    ports:
+      - 5252:8080
+    networks:
+      - card_vault_network
+      
+  card_vault.database:
+    image: postgres:latest
+    container_name: CardVault.Database
+    environment:
+      - POSTGRES_DB=CardVaultDb
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - Password=postgres
+    volumes:
+      - card_vault:/var/lib/postgresql/data
+    ports:
+      - 5432:5432
+    networks:
+      - card_vault_network
+      
+volumes:
+    card_vault:
+      
+networks:
+  card_vault_network:
+

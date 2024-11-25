@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "n87DF/lD3WCFodZf432uQFQ5ZmcrKNCuZGElhbY3Moo=",
+  "Source": "CardVault.Modules.PaymentCards.Api",
+  "BasePath": "_content/CardVault.Modules.PaymentCards.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

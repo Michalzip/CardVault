@@ -1,0 +1,84 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:CardVault.UI.ViewModels"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             x:Class="CardVault.UI.View.PaymentCardFormPage">
+    <ContentPage.BindingContext>
+        <vm:PaymentCardFormViewModel />
+    </ContentPage.BindingContext>
+    <VerticalStackLayout Padding="30"
+                         Spacing="20"
+                         VerticalOptions="Center">
+        <Label Text="Provide Your Payment Card"
+               FontSize="Title"
+               HorizontalOptions="Center"
+               VerticalOptions="Start"
+               Margin="0,20,0,30" />
+        <Grid HorizontalOptions="Center"
+              VerticalOptions="Center"
+              Padding="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <Entry Placeholder="Account Number"
+                   Text="{Binding AccountNumber}"
+                   Keyboard="Numeric"
+                   MaxLength="26"
+                   HorizontalOptions="Center"
+                   FontSize="18"
+                   WidthRequest="350"
+                   HeightRequest="60"
+                   Grid.Row="0"
+                   Margin="0, 0, 0, 20" />
+            <Entry Placeholder="Pin"
+                   Text="{Binding Pin}"
+                   Keyboard="Numeric"
+                   MaxLength="4"
+                   HorizontalOptions="Center"
+                   FontSize="18"
+                   WidthRequest="350"
+                   Grid.Row="1"
+                   HeightRequest="60"
+                   Margin="0, 0, 0, 20" />
+            <Entry Placeholder="Serial Number"
+                   Keyboard="Numeric"
+                   MaxLength="16"
+                   Text="{Binding SerialNumber}"
+                   HorizontalOptions="Center"
+                   FontSize="18"
+                   WidthRequest="350"
+                   HeightRequest="60"
+                   Grid.Row="2"
+                   Margin="0, 0, 0, 5" />
+        </Grid>
+        <Grid HorizontalOptions="Center"
+              VerticalOptions="Center"
+              ColumnSpacing="20"
+              Padding="10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="Auto" />
+            </Grid.ColumnDefinitions>
+            <Button Text="Cancel"
+                    Command="{Binding CancelCommand}"
+                    BackgroundColor="{DynamicResource Primary}"
+                    TextColor="White"
+                    FontSize="18"
+                    CornerRadius="10"
+                    Grid.Column="0"
+                    WidthRequest="120"
+                    HeightRequest="60" />
+            <Button Text="Save"
+                    Command="{Binding SaveCommand}"
+                    BackgroundColor="{DynamicResource Primary}"
+                    TextColor="White"
+                    FontSize="18"
+                    CornerRadius="10"
+                    Grid.Column="1"
+                    WidthRequest="120"
+                    HeightRequest="60" />
+        </Grid>
+    </VerticalStackLayout>
+</ContentPage>

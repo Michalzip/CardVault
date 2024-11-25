@@ -1,0 +1,330 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/michal/Desktop/CardVault/src/Modules/PaymentCards/CardVault.Modules.PaymentCards.Application/CardVault.Modules.PaymentCards.Application.csproj": {}
+  },
+  "projects": {
+    "/Users/michal/Desktop/CardVault/src/Modules/PaymentCards/CardVault.Modules.PaymentCards.Application/CardVault.Modules.PaymentCards.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/michal/Desktop/CardVault/src/Modules/PaymentCards/CardVault.Modules.PaymentCards.Application/CardVault.Modules.PaymentCards.Application.csproj",
+        "projectName": "CardVault.Modules.PaymentCards.Application",
+        "projectPath": "/Users/michal/Desktop/CardVault/src/Modules/PaymentCards/CardVault.Modules.PaymentCards.Application/CardVault.Modules.PaymentCards.Application.csproj",
+        "packagesPath": "/Users/michal/.nuget/packages/",
+        "outputPath": "/Users/michal/Desktop/CardVault/src/Modules/PaymentCards/CardVault.Modules.PaymentCards.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/michal/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/michal/Desktop/CardVault/src/Modules/PaymentCards/CardVault.Modules.PaymentCards.Domain/CardVault.Modules.PaymentCards.Domain.csproj": {
+                "projectPath": "/Users/michal/Desktop/CardVault/src/Modules/PaymentCards/CardVault.Modules.PaymentCards.Domain/CardVault.Modules.PaymentCards.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/michal/Desktop/CardVault/src/Modules/PaymentCards/CardVault.Modules.PaymentCards.Domain/CardVault.Modules.PaymentCards.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/michal/Desktop/CardVault/src/Modules/PaymentCards/CardVault.Modules.PaymentCards.Domain/CardVault.Modules.PaymentCards.Domain.csproj",
+        "projectName": "CardVault.Modules.PaymentCards.Domain",
+        "projectPath": "/Users/michal/Desktop/CardVault/src/Modules/PaymentCards/CardVault.Modules.PaymentCards.Domain/CardVault.Modules.PaymentCards.Domain.csproj",
+        "packagesPath": "/Users/michal/.nuget/packages/",
+        "outputPath": "/Users/michal/Desktop/CardVault/src/Modules/PaymentCards/CardVault.Modules.PaymentCards.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/michal/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/michal/Desktop/CardVault/src/Shared/CardVault.Shared.Abstraction/CardVault.Shared.Abstraction.csproj": {
+                "projectPath": "/Users/michal/Desktop/CardVault/src/Shared/CardVault.Shared.Abstraction/CardVault.Shared.Abstraction.csproj"
+              },
+              "/Users/michal/Desktop/CardVault/src/Shared/CardVault.Shared.Infrastructure/CardVault.Shared.Infrastructure.csproj": {
+                "projectPath": "/Users/michal/Desktop/CardVault/src/Shared/CardVault.Shared.Infrastructure/CardVault.Shared.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/michal/Desktop/CardVault/src/Shared/CardVault.Shared.Abstraction/CardVault.Shared.Abstraction.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/michal/Desktop/CardVault/src/Shared/CardVault.Shared.Abstraction/CardVault.Shared.Abstraction.csproj",
+        "projectName": "CardVault.Shared.Abstraction",
+        "projectPath": "/Users/michal/Desktop/CardVault/src/Shared/CardVault.Shared.Abstraction/CardVault.Shared.Abstraction.csproj",
+        "packagesPath": "/Users/michal/.nuget/packages/",
+        "outputPath": "/Users/michal/Desktop/CardVault/src/Shared/CardVault.Shared.Abstraction/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/michal/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.35, )"
+            },
+            "Humanizer.Core": {
+              "target": "Package",
+              "version": "[3.0.0-beta.54, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.4.1, )"
+            },
+            "MessagePack.Annotations": {
+              "target": "Package",
+              "version": "[2.3.112, )"
+            },
+            "Microsoft.AspNetCore.Http.Extensions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Routing": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Microsoft.AspNetCore.Routing.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Scrutor": {
+              "target": "Package",
+              "version": "[4.2.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/michal/Desktop/CardVault/src/Shared/CardVault.Shared.Infrastructure/CardVault.Shared.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/michal/Desktop/CardVault/src/Shared/CardVault.Shared.Infrastructure/CardVault.Shared.Infrastructure.csproj",
+        "projectName": "CardVault.Shared.Infrastructure",
+        "projectPath": "/Users/michal/Desktop/CardVault/src/Shared/CardVault.Shared.Infrastructure/CardVault.Shared.Infrastructure.csproj",
+        "packagesPath": "/Users/michal/.nuget/packages/",
+        "outputPath": "/Users/michal/Desktop/CardVault/src/Shared/CardVault.Shared.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/michal/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/michal/Desktop/CardVault/src/Shared/CardVault.Shared.Abstraction/CardVault.Shared.Abstraction.csproj": {
+                "projectPath": "/Users/michal/Desktop/CardVault/src/Shared/CardVault.Shared.Abstraction/CardVault.Shared.Abstraction.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[6.0.0-preview.4.21253.5, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+# This is a generated file. Not intended for manual editing.
+services:
+  card_vault.bootstrapper:
+    build:
+      context: "/Users/michal/Desktop/CardVault"
+      dockerfile: "src/Bootstrapper/CardVault.Bootstrapper/Dockerfile"
+      target: "base"
+    command: []
+    entrypoint:
+    - "dotnet"
+    - "/app/bin/Debug/net8.0/CardVault.Bootstrapper.dll"
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Development"
+      DOTNET_USE_POLLING_FILE_WATCHER: "true"
+    image: "card_vault.bootstrapper:dev"
+    ports: []
+    volumes:
+    - "/Users/michal/.nuget/packages:/home/app/.nuget/packages"
+    - "/Users/michal/Desktop/CardVault/src/Bootstrapper/CardVault.Bootstrapper:/app:rw"
+    - "/Users/michal/Desktop/CardVault:/src:rw"
+    working_dir: "/app"

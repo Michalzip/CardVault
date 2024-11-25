@@ -1,0 +1,9 @@
+{
+  "paymentCards": {
+    "module": {
+      "name": "PaymentCards",
+      "enabled": true
+    }
+
+  }
+}

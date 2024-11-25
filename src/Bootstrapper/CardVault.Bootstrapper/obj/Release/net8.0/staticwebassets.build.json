@@ -1,0 +1,23 @@
+{
+  "Version": 1,
+  "Hash": "DP+PHhhZyXij1L4btcFn5QqdVywIgiwotZsDGgAP6bM=",
+  "Source": "CardVault.Bootstrapper",
+  "BasePath": "_content/CardVault.Bootstrapper",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "/Users/michal/Desktop/CardVault/src/Modules/PaymentCards/CardVault.Modules.PaymentCards.Api/CardVault.Modules.PaymentCards.Api.csproj",
+      "Version": 2,
+      "Source": "CardVault.Modules.PaymentCards.Api",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

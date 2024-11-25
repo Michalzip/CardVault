@@ -1,0 +1,12 @@
+/Users/michal/Desktop/CardVault/src/Shared/CardVault.Shared.Abstraction/bin/Debug/net8.0/CardVault.Shared.Abstraction.deps.json
+/Users/michal/Desktop/CardVault/src/Shared/CardVault.Shared.Abstraction/bin/Debug/net8.0/CardVault.Shared.Abstraction.dll
+/Users/michal/Desktop/CardVault/src/Shared/CardVault.Shared.Abstraction/bin/Debug/net8.0/CardVault.Shared.Abstraction.pdb
+/Users/michal/Desktop/CardVault/src/Shared/CardVault.Shared.Abstraction/obj/Debug/net8.0/CardVault.Shared.Abstraction.csproj.AssemblyReference.cache
+/Users/michal/Desktop/CardVault/src/Shared/CardVault.Shared.Abstraction/obj/Debug/net8.0/CardVault.Shared.Abstraction.GeneratedMSBuildEditorConfig.editorconfig
+/Users/michal/Desktop/CardVault/src/Shared/CardVault.Shared.Abstraction/obj/Debug/net8.0/CardVault.Shared.Abstraction.AssemblyInfoInputs.cache
+/Users/michal/Desktop/CardVault/src/Shared/CardVault.Shared.Abstraction/obj/Debug/net8.0/CardVault.Shared.Abstraction.AssemblyInfo.cs
+/Users/michal/Desktop/CardVault/src/Shared/CardVault.Shared.Abstraction/obj/Debug/net8.0/CardVault.Shared.Abstraction.csproj.CoreCompileInputs.cache
+/Users/michal/Desktop/CardVault/src/Shared/CardVault.Shared.Abstraction/obj/Debug/net8.0/CardVault.Shared.Abstraction.dll
+/Users/michal/Desktop/CardVault/src/Shared/CardVault.Shared.Abstraction/obj/Debug/net8.0/refint/CardVault.Shared.Abstraction.dll
+/Users/michal/Desktop/CardVault/src/Shared/CardVault.Shared.Abstraction/obj/Debug/net8.0/CardVault.Shared.Abstraction.pdb
+/Users/michal/Desktop/CardVault/src/Shared/CardVault.Shared.Abstraction/obj/Debug/net8.0/ref/CardVault.Shared.Abstraction.dll
