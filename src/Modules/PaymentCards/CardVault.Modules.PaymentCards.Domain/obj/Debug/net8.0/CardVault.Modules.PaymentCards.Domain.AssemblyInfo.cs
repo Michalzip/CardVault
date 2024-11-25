@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CardVault.Modules.PaymentCards.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+470e539f85c7fa2bbb0c402dfeb038f8b0680e97")]
 [assembly: System.Reflection.AssemblyProductAttribute("CardVault.Modules.PaymentCards.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CardVault.Modules.PaymentCards.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
