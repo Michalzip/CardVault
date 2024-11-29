@@ -49,9 +49,10 @@ dotnet ef database update --startup-project src/Bootstrapper/CardVault.Bootstrap
 
 To build and run the UI application, use the appropriate command based on your operating system:
 
-- **Windows**: To build the application for Windows, run:
+- **Windows**: To build & run the application for Windows, run:
     ```bash
     dotnet build --framework net8.0-windows10.0.19041.0
+    dotnet run --framework net8.0-windows10.0.19041.0
     ```
 - **macOS**: To build the application for macOS, run:
     ```bash
