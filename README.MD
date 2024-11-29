@@ -29,7 +29,14 @@ CardVault is an application that allows you to manage your payment cards. This g
     docker-compose ps
     ```
 
-### 2. Running the User Interface (UI)
+### 2. Updating the Database Schema
+To update the database schema using Entity Framework Core, run the following command: 
+
+```bash
+dotnet ef database update --startup-project src/Bootstrapper/CardVault.Bootstrapper --project src/Modules/PaymentCards/CardVault.Modules.PaymentCards.Domain --context PaymentWriteCardsContext
+```
+
+### 3. Running the User Interface (UI)
 
 1. Install .NET MAUI if you haven't already.
 2. Navigate to the UI folder:
