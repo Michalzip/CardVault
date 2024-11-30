@@ -42,7 +42,7 @@ dotnet ef database update --startup-project src/Bootstrapper/CardVault.Bootstrap
 2. Navigate to the UI folder:
 
     ```bash
-    cd /CardVault/src/UI/CardVault.UI
+    cd src/UI/CardVault.UI
     ```
 
 #### Running the UI Depending on Your Operating System

@@ -30,3 +30,4 @@
 /Users/michal/Desktop/CardVault/src/Modules/PaymentCards/CardVault.Modules.PaymentCards.Api/obj/Debug/net8.0/refint/CardVault.Modules.PaymentCards.Api.dll
 /Users/michal/Desktop/CardVault/src/Modules/PaymentCards/CardVault.Modules.PaymentCards.Api/obj/Debug/net8.0/CardVault.Modules.PaymentCards.Api.pdb
 /Users/michal/Desktop/CardVault/src/Modules/PaymentCards/CardVault.Modules.PaymentCards.Api/obj/Debug/net8.0/ref/CardVault.Modules.PaymentCards.Api.dll
+/Users/michal/Desktop/CardVault/src/Modules/PaymentCards/CardVault.Modules.PaymentCards.Api/obj/Debug/net8.0/CardVault.Modules.PaymentCards.Api.sourcelink.json

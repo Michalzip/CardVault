@@ -15,3 +15,4 @@
 /Users/michal/Desktop/CardVault/src/Modules/PaymentCards/CardVault.Modules.PaymentCards.Domain/obj/Debug/net8.0/ref/CardVault.Modules.PaymentCards.Domain.dll
 /Users/michal/Desktop/CardVault/src/Modules/PaymentCards/CardVault.Modules.PaymentCards.Domain/bin/Debug/net8.0/CardVault.Shared.Infrastructure.dll
 /Users/michal/Desktop/CardVault/src/Modules/PaymentCards/CardVault.Modules.PaymentCards.Domain/bin/Debug/net8.0/CardVault.Shared.Infrastructure.pdb
+/Users/michal/Desktop/CardVault/src/Modules/PaymentCards/CardVault.Modules.PaymentCards.Domain/obj/Debug/net8.0/CardVault.Modules.PaymentCards.Domain.sourcelink.json

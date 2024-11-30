@@ -10,3 +10,4 @@
 /Users/michal/Desktop/CardVault/src/Shared/CardVault.Shared.Abstraction/obj/Debug/net8.0/refint/CardVault.Shared.Abstraction.dll
 /Users/michal/Desktop/CardVault/src/Shared/CardVault.Shared.Abstraction/obj/Debug/net8.0/CardVault.Shared.Abstraction.pdb
 /Users/michal/Desktop/CardVault/src/Shared/CardVault.Shared.Abstraction/obj/Debug/net8.0/ref/CardVault.Shared.Abstraction.dll
+/Users/michal/Desktop/CardVault/src/Shared/CardVault.Shared.Abstraction/obj/Debug/net8.0/CardVault.Shared.Abstraction.sourcelink.json

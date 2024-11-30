@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "fsLNXkKbdoUQR4zcvroCPoSiX/D3h939aCa/swMMWnQ=",
+  "Hash": "DP+PHhhZyXij1L4btcFn5QqdVywIgiwotZsDGgAP6bM=",
   "Source": "CardVault.Bootstrapper",
   "BasePath": "_content/CardVault.Bootstrapper",
   "Mode": "Default",
@@ -11,10 +11,10 @@
       "Version": 2,
       "Source": "CardVault.Modules.PaymentCards.Api",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
-      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishProperties": "",
       "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
       "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
-      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildProperties": "",
       "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
     }
   ],

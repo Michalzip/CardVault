@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CardVault.UI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+470e539f85c7fa2bbb0c402dfeb038f8b0680e97")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+316226293bee101014537915935bc46730caf02b")]
 [assembly: System.Reflection.AssemblyProductAttribute("CardVault.UI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CardVault.UI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

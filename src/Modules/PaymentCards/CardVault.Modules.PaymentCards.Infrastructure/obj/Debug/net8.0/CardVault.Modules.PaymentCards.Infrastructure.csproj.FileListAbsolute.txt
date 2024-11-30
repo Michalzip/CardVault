@@ -19,3 +19,4 @@
 /Users/michal/Desktop/CardVault/src/Modules/PaymentCards/CardVault.Modules.PaymentCards.Infrastructure/obj/Debug/net8.0/refint/CardVault.Modules.PaymentCards.Infrastructure.dll
 /Users/michal/Desktop/CardVault/src/Modules/PaymentCards/CardVault.Modules.PaymentCards.Infrastructure/obj/Debug/net8.0/CardVault.Modules.PaymentCards.Infrastructure.pdb
 /Users/michal/Desktop/CardVault/src/Modules/PaymentCards/CardVault.Modules.PaymentCards.Infrastructure/obj/Debug/net8.0/ref/CardVault.Modules.PaymentCards.Infrastructure.dll
+/Users/michal/Desktop/CardVault/src/Modules/PaymentCards/CardVault.Modules.PaymentCards.Infrastructure/obj/Debug/net8.0/CardVault.Modules.PaymentCards.Infrastructure.sourcelink.json

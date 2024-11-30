@@ -13,3 +13,4 @@
 /Users/michal/Desktop/CardVault/src/Shared/CardVault.Shared.Infrastructure/obj/Debug/net8.0/refint/CardVault.Shared.Infrastructure.dll
 /Users/michal/Desktop/CardVault/src/Shared/CardVault.Shared.Infrastructure/obj/Debug/net8.0/CardVault.Shared.Infrastructure.pdb
 /Users/michal/Desktop/CardVault/src/Shared/CardVault.Shared.Infrastructure/obj/Debug/net8.0/ref/CardVault.Shared.Infrastructure.dll
+/Users/michal/Desktop/CardVault/src/Shared/CardVault.Shared.Infrastructure/obj/Debug/net8.0/CardVault.Shared.Infrastructure.sourcelink.json
